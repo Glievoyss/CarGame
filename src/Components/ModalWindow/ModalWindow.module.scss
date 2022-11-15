@@ -1,0 +1,27 @@
+.modalBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1210;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalBody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 435px;
+  padding: 32px;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+}
+
+.bodyModal {
+  margin: 16px 0 24px 0;
+}

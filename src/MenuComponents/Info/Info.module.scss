@@ -1,0 +1,14 @@
+.infoBox{
+    padding: 30px;
+    font-size: 30px;
+    position: fixed;
+    top:50px;
+    left: calc(50%);
+    z-index: 1000;
+    background-color: antiquewhite;
+
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 8px;
+    transform: translate(-50%);
+
+}
